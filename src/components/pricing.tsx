@@ -55,14 +55,17 @@ const PricingCard = ({ title, subtitle, price, features, bonuses }) => {
 
 const Pricing = () => {
   const features = [
-    "All illimited components Tailwind",
-    "Own analitycs templates",
-    "24/24 support link",
+    "создание ботов с ИИ",
+    "создание сайтов с ИИ",
+    "мастеркласс по продажам айти продуктов",
+    "оффлайн встреча с лекторами",
+    "скидка на основное обучение",
+    "лекция по карьерному развитию в айти",
   ];
   const bonuses = [
-    "All illimited components Tailwind",
-    "Own analitycs templates",
-    "24/24 support link",
+    "Запись всех 3 дней",
+    "Доступ в закрытый телеграм канал",
+    "Доступ к бесплатному курсу по HTML и CSS",
   ];
   return (
     <div className="container grid grid-cols-1 lg:grid-cols-2 gap-8 my-12 ">
